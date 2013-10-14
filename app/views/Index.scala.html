@@ -1,0 +1,25 @@
+@(users: List[User])
+
+@Main("Home") {
+   <div class="container">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>First</th>
+        <th>Last</th>
+        <th>Phone</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for(user <- users) {
+      <tr>
+        <td>@user.getFirst()</td>
+        <td>@user.getLast()</td>
+        <td>@user.getTelephone()</td>
+        <td>@user.getEmail()</td> 
+    </tbody>
+    }
+  </table>
+</div>
+}
