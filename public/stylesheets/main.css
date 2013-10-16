@@ -1,3 +1,13 @@
-body {
-  padding-top: 70px;  /* Move body of page below navbar. */
+.carousel-inner>.item {
+  height: 500px;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+  width: 100%;
+}
+
+.header-image {
+  background-image: url('../images/header.jpg');
+  background-size: cover;
+  height: 200px;
 }

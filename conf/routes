@@ -5,6 +5,10 @@
 # Home page
 GET     /                           controllers.Application.index()
 GET     /page1                      controllers.Application.page1()
+GET     /beverages                  controllers.Application.beverages()
+GET     /snacks                     controllers.Application.snacks()
+GET     /toys                       controllers.Application.toys()
+GET     /cigars                     controllers.Application.cigars()
 GET     /newuser                    controllers.Application.newUser()
 POST    /newuser                    controllers.Application.postUsers()
 
