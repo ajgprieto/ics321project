@@ -11,9 +11,9 @@ Installation
 =============
 Must have Java JDK, Eclipse and <a href="http://www.playframework.com/">Play framework</a> installed.
 
-NOTES:
--Be sure to have the Play directory in your Path variable
--To test, open cmd promt and enter "play"
+NOTES:<br>
+-Be sure to have the Play directory in your Path variable<br>
+-To test, open cmd promt and enter "play"<br>
 
 Once everything working and installed:
 -clone file onto computer<br>
