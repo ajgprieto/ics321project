@@ -1,5 +1,9 @@
 package controllers;
 
+import java.util.ArrayList;
+import java.util.List;
+import models.CreateSodaInventory;
+import models.Soda;
 import models.UserDB;
 import play.data.Form;
 import play.mvc.Controller;
@@ -47,7 +51,9 @@ public class Application extends Controller {
    * @return The Page1.
    */
   public static Result beverages() {
-    return ok(Beverages.render("Welcome to the beverages page."));
+    CreateSodaInventory.run();
+    List<Soda> sodas = CreateSodaInventory.listSoda();    
+    return ok(Beverages.render(sodas));
   }
   
   /**
