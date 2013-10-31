@@ -4,10 +4,12 @@ public class Soda {
 
   String soda = "";
   String price = "";
+  long id = 0;
   
   public Soda() {}
   
-  public Soda (String soda, String price) {
+  public Soda (long id, String soda, String price) {
+    this.id = id;
     this.soda = soda;
     this.price = price;
   }
@@ -19,4 +21,6 @@ public class Soda {
   public String getPrice() {
     return price;
   }
+  
+  public long 
 }

@@ -19,11 +19,13 @@ public class CreateSodaInventory {
 
       BufferedReader br = new BufferedReader(new FileReader(sodaFile));
       String line = "";
+      long id = 1;
      
 
       while ((line = br.readLine()) != null) {
         String [] items = line.split("\\s");
-        sodas.add(new Soda(items[0], items[1]));
+        sodas.add(new Soda(id, items[0], items[1]));
+        id++;
       }
       br.close();
     }

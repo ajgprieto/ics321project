@@ -2,6 +2,7 @@ package controllers;
 
 import java.util.ArrayList;
 import java.util.List;
+import models.CartDB;
 import models.CreateSodaInventory;
 import models.Soda;
 import models.UserDB;
@@ -16,6 +17,7 @@ import views.html.Snacks;
 import views.html.Beverages;
 import views.html.Toys;
 import views.html.Cigars;
+import views.html.Carta;
 
 /**
  * Implements the controllers for this application.
@@ -82,6 +84,9 @@ public class Application extends Controller {
     return ok(NewUser.render(user));
   }
   
+  public static void buyItem(long id) {
+  }
+  
   
  /**
   * Posts a new user to the user list.
@@ -101,5 +106,11 @@ public class Application extends Controller {
       System.out.println("OK: " + data.firstName + " " + data.lastName + " " + data.telephone + " " + data.eMail);
       return ok(NewUser.render(formData));
     }
+  }
+  
+  
+  
+  public static Result postCart() {
+    return ok(Carta.render(CartDB.getCart()));
   }
 }
