@@ -11,3 +11,9 @@
   background-size: cover;
   height: 200px;
 }
+
+.item-image {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
