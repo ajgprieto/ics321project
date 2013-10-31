@@ -1,0 +1,25 @@
+@(items: List[Product], total: String) @Main("Cart") {
+<div class="container">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for(item <- items) {
+      <tr>
+       
+        <td>@item.getItem()</td>
+        <td>$@item.getPrice()</td>
+        <td>            
+          </div>
+        </td>
+      </tr>
+      }
+      <td>Total: </td>
+      <td>$@total</td>
+  </table>
+</div>
+}

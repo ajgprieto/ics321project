@@ -8,6 +8,9 @@ GET     /beverages                  controllers.Application.beverages()
 GET     /snacks                     controllers.Application.snacks()
 GET     /toys                       controllers.Application.toys()
 GET     /cigars                     controllers.Application.cigars()
+GET     /showitem                   controllers.Application.showItem(id: Long)
+GET     /showcart                   controllers.Application.showCart(id: Long)
+GET     /displaycart                controllers.Application.displayCart()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

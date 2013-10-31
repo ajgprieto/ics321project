@@ -1,0 +1,24 @@
+@(item: Product)
+
+
+@Main("Showing Item") {
+<div class="row page-content">
+  <div class="col-md-4">
+    <div class="well">
+      <div class="item-image" style="background-image: url('@item.getPic()')"></div>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <div class="well">
+    <div class="page-content">
+      <h1>@item.getItem()</h1>
+      <p><b>Price: $</b>@item.getPrice()</p>
+      <p>
+      <a type="button" class="btn btn-info" href="@routes.Application.showCart(item.getId())">Add to cart</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</div>
+}
+

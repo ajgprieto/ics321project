@@ -146,5 +146,10 @@ public class CreateInventory {
   public static Map<Long, Product> getItems() {
     return allItems;
   }
+  
+  public static Product showItem(long id) {
+    Product prod = allItems.get(id);
+    return prod;
+  }
 
 }
