@@ -1,3 +1,0 @@
-Pepsi|0.65|http://stickysugar.files.wordpress.com/2012/02/pepsi.jpg
-Coca-Cola|0.65|http://www.ajwholesale.co.uk/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/c/o/coca-cola-can.jpg
-Mountain Dew|0.65|http://aljazeeraarabia.com/gallery/dew.jpg

@@ -68,12 +68,22 @@ public class Application extends Controller {
     return ok(ShowItem.render(CreateInventory.showItem(id)));
   }
   
+  /**
+   * Shows the cart to the user with all the added items.
+   * 
+   * @param id the id of the product added to the cart.
+   * @return the cart
+   */
   public static Result showCart(long id) {
     Product prod = CreateInventory.showItem(id);
     CartDB.addToCart(prod);
     return ok(Cart.render(CartDB.showCart(), CartDB.getTotal()));
   }
   
+  /**
+   * Shows the cart to the user.
+   * @return the cart displayed on the page.
+   */
   public static Result displayCart() {
     return ok(Cart.render(CartDB.showCart(), CartDB.getTotal()));
   }

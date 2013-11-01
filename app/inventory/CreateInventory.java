@@ -34,7 +34,7 @@ public class CreateInventory {
    */
   public static void createBeveragesInventory() {
     try {
-      loadFile = new File("public/inventoryFiles/beverages.txt");
+      loadFile = new File("public/inventoryFiles/drinks.txt");
       br = new BufferedReader(new FileReader(loadFile));
       String line = "";
 
@@ -42,12 +42,15 @@ public class CreateInventory {
 
       while ((line = br.readLine()) != null) {
         String[] items = line.split("\\|");
-        
+        System.out.println(line);
         Product prod = new Product(id, items[0], items[1], items[2]);
         beverages.add(prod);
         allItems.put(id, prod);
         id++;
       }
+    }
+    catch (ArrayIndexOutOfBoundsException aioob) {
+      System.out.println("help");
     }
     catch (IOException io) {
       System.out.println("Something Broke, Beverages, FIX IT");
@@ -67,12 +70,16 @@ public class CreateInventory {
 
       while ((line = br.readLine()) != null) {
         String[] items = line.split("\\|");
+        System.out.println(line);
         
         Product prod = new Product(id, items[0], items[1], items[2]);
         snacks.add(prod);
         allItems.put(id, prod);
         id++;
       }
+    }
+    catch (ArrayIndexOutOfBoundsException aioob) {
+      System.out.println("help");
     }
     catch (IOException io) {
       System.out.println("Something Broke, Snacks, FIX IT");
@@ -98,6 +105,9 @@ public class CreateInventory {
         id++;
       }
     }
+    catch (ArrayIndexOutOfBoundsException aioob) {
+      System.out.println("help");
+    }
     catch (IOException io) {
       System.out.println("Something Broke, Toys, FIX IT");
     }
@@ -122,15 +132,27 @@ public class CreateInventory {
         id++;
       }
     }
+    catch (ArrayIndexOutOfBoundsException aioob) {
+      System.out.println("help");
+    }
     catch (IOException io) {
       System.out.println("Something Broke, Cigars, FIX IT");
     }
   }
   
+  /**
+   * Returns the list of beverages.
+   * 
+   * @return beverages
+   */
   public static List<Product> getBeverages() {
     return beverages;
   }
   
+  /**
+   * Returns the list of snacks.
+   * @return snacks
+   */
   public static List<Product> getSnacks() {
     return snacks;
   }
@@ -139,14 +161,29 @@ public class CreateInventory {
     return toys;
   }
   
+  /**
+   * Returns the list of cigars.
+   * 
+   * @return the list of cigars.
+   */
   public static List<Product> getCigars() {
     return cigars;
   }
   
+  /**
+   * Returns a Map of all the items.
+   * @return allItems
+   */
   public static Map<Long, Product> getItems() {
     return allItems;
   }
   
+  /**
+   * Returns the product with the given id.
+   * 
+   * @param id the id of the product.
+   * @return the product
+   */
   public static Product showItem(long id) {
     Product prod = allItems.get(id);
     return prod;

@@ -1,3 +1,31 @@
-Cracker Jack|2.00|http://upload.wikimedia.org/wikipedia/en/d/d4/Cracker_Jack_bag.JPG
-Starburst|0.75|http://www.oldtimecandy.com/assets/images/singles/starburst.jpg
-Mentos|0.75|http://www.chachingonashoestring.com/wp-content/uploads/2011/02/mentos.jpg
+Hershey chocolate bar|6|http://images.hersheysstore.com/imagesEdp/p114661b.jpg?random=1383296935467
+Hershey kisses pack|12|http://images.hersheysstore.com/imagesEdp/p118247b.jpg?random=1383297015414
+Resses peanut butter|10|http://images.hersheysstore.com/imagesEdp/p167415b.jpg?random=1383297078493
+Reeses peanut butter cup|12|http://images.hersheysstore.com/imagesEdp/p138782b.jpg?random=1383297123628
+Twizzlers chocolate|7|http://images.hersheysstore.com/imagesEdp/p120674z.jpg
+cherry twizzlers|10|http://images.hersheysstore.com/imagesEdp/p124939z.jpg
+dorritos nacho cheese backed|6|http://www.fritolay.com/assets/images/blue/doritos-baked-nacho-cheese.gif
+dorritos cool ranch|4|http://www.fritolay.com/assets/images/blue/doritos-cool-ranch.gif
+dorritos spicy nacho cheese|7|http://www.fritolay.com/assets/images/blue/doritos-spicy-sweet-chili.gif
+dorritos BBQ chips|10|http://www.fritolay.com/assets/images/blue/doritos-jacked-spicy-chipotle-bbq.gif
+cheetos jalapeno|7|http://www.fritolay.com/assets/images/blue/cheetos-crunchy-cheddar-jalapeno.gif
+regular cheetos|7|http://www.fritolay.com/assets/images/blue/cheetos-crunchy.gif
+FLAMIN HOT cheetos|7|http://www.fritolay.com/assets/images/blue/cheetos-crunchy-flamin-hot.gif
+XTRA HOT cheetos|7|http://www.fritolay.com/our-snacks/cheetos-crunchy-xxtra-flamin-hot.html
+white cheddar cheetos|7|http://www.fritolay.com/assets/images/blue/cheetos-puffed-corn-simply-white-cheddar.gif
+BAKED XTRA HOT cheetos|7|http://www.fritolay.com/assets/images/blue/cheetos-baked-flamin-hot.gif
+white cheddar cheetos puffs|7|http://www.fritolay.com/assets/images/blue/cheetos-puffs-simply-white-cheddar.gif
+LAys BBQ potato chips|7|http://www.fritolay.com/assets/images/blue/lays-barbecue.gif
+Lays cheddar and sour cream|7|http://www.fritolay.com/assets/images/blue/lays-cheddar-sour-cream.gif
+LAys classic potato chip|7|http://www.fritolay.com/assets/images/blue/lays-classic.gif
+Lays FLamin hot|7|http://www.fritolay.com/assets/images/blue/lays-flamin-hot.gif
+Lays Tomato and basil|7|http://www.fritolay.com/assets/images/blue/lays-garden-tomato-basil.gif
+LAys honey BBQ|7|http://www.fritolay.com/assets/images/blue/lays-honey-barbecue.gif
+Lays original|7|http://www.fritolay.com/assets/images/blue/lays-light-original.gif
+Lays sour cream and onion|7|http://www.fritolay.com/assets/images/blue/lays-baked-sour-cream-onion.gif
+Lays sea salt and peper|7|http://www.fritolay.com/assets/images/blue/lays-kettle-cooked-sea-salt-cracked-pepper.gif
+Star burst mini|6.99|http://www.wrigley.com/wrigley_com/Images/flash/Brands/Starburst/starburst-minis-sup130215685848048422.png
+Startburst|1|http://www.wrigley.com/wrigley_com/Images/flash/Brands/Starburst/pack_original_favereds_veryberry130074922124252940.png
+Skittles|1|http://www.wrigley.com/wrigley_com/Images/flash/Brands/skittles/2013-01-pack-orig130041485971263590.png
+Snikkers candy|1|https://classes.lt.unt.edu/Fall_2010/LTEC_3260_020/hlh0091/assign1/snickers-bar.jpg
+m and m s|1|http://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Plain-M%26Ms-Pile.jpg/280px-Plain-M%26Ms-Pile.jpg
