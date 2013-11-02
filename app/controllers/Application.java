@@ -3,9 +3,13 @@ package controllers;
 import models.CartDB;
 import models.Product;
 import inventory.CreateInventory;
+import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
+import views.formdata.ContactFormData;
+import views.formdata.TelephoneTypes;
 import views.html.Index;
+import views.html.NewContact;
 import views.html.Snacks;
 import views.html.Beverages;
 import views.html.Toys;
@@ -87,6 +91,25 @@ public class Application extends Controller {
   public static Result displayCart() {
     return ok(Cart.render(CartDB.showCart(), CartDB.getTotal()));
   }
+  
+  public static Result userInfo() {
+    ContactFormData data = new ContactFormData();
+    Form<ContactFormData> formData = Form.form(ContactFormData.class).fill(data);
+    return ok(NewContact.render(formData, TelephoneTypes.getTypes(data.telephoneType)));
+  }
+  
+  public static Result postContact() {
+    Form<ContactFormData> formData = Form.form(ContactFormData.class).bindFromRequest();
+
+    if (formData.hasErrors()) {
+      System.out.println("Errors Found");
+      return badRequest(NewContact.render(formData, TelephoneTypes.getTypes()));
+    }
+    else {
+      return ok(NewContact.render(formData, TelephoneTypes.getTypes()));
+    }
+  }
+  
   
   
   
