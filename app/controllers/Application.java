@@ -85,6 +85,12 @@ public class Application extends Controller {
     return ok(Cart.render(CartDB.showCart(), CartDB.getTotal()));
   }
   
+  public static Result deleteItem(long id) {
+    Product prod = CreateInventory.showItem(id);
+    CartDB.removeItem(prod);
+    return ok(Cart.render(CartDB.showCart(), CartDB.getTotal()));
+  }
+  
   /**
    * Shows the cart to the user.
    * @return the cart displayed on the page.

@@ -14,7 +14,7 @@
         <td>@item.getItem()</td>
         <td>$@item.getPrice()</td>
         <td>            
-          </div>
+          <a type="button" class="pull-right btn btn-warning" href="@routes.Application.deleteItem(item.getId())">Delete</a>
         </td>
       </tr>
       }

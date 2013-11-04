@@ -1,7 +1,9 @@
 package models;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Holds the items the user adds to the cart.
@@ -22,6 +24,11 @@ public class CartDB {
     cart.add(product);
     String price = product.getPrice();
     total += Double.parseDouble(price);
+  }
+  
+  public static void removeItem(Product product) {
+    cart.remove(product);
+    total -= Double.parseDouble(product.getPrice());
   }
   
   /**
