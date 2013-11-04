@@ -13,6 +13,7 @@ GET     /showcart                   controllers.Application.showCart(id: Long)
 GET     /displaycart                controllers.Application.displayCart()
 GET     /userinfo                   controllers.Application.userInfo()
 POST    /post                       controllers.Application.postContact()
+GET     /checkout                   controllers.Application.checkout()
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)

@@ -39,4 +39,8 @@ public class CartDB {
   public static String getTotal() {
     return String.format("%.2f", total);
   }
+  
+  public static void resetTotal() {
+    total = 0;
+  }
 }
