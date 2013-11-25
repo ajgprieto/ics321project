@@ -10,13 +10,10 @@ import views.formdata.ContactFormData;
 import views.formdata.TelephoneTypes;
 import views.html.Index;
 import views.html.NewContact;
-import views.html.Snacks;
-import views.html.Beverages;
-import views.html.Toys;
-import views.html.Cigars;
 import views.html.ShowItem;
 import views.html.Cart;
 import views.html.Checkout;
+import views.html.Categories;
 
 /**
  * Implements the controllers for this application.
@@ -36,7 +33,7 @@ public class Application extends Controller {
    * @return The Page1.
    */
   public static Result snacks() {
-    return ok(Snacks.render(CreateInventory.getSnacks()));
+    return ok(Categories.render("Snack", CreateInventory.getSnacks()));
   }
   
   /**
@@ -44,7 +41,7 @@ public class Application extends Controller {
    * @return The Page1.
    */
   public static Result beverages() {
-    return ok(Beverages.render(CreateInventory.getBeverages()));
+    return ok(Categories.render("Beverages", CreateInventory.getBeverages()));
   }
   
   /**
@@ -52,7 +49,7 @@ public class Application extends Controller {
    * @return The Page1.
    */
   public static Result toys() {
-    return ok(Toys.render(CreateInventory.getToys()));
+    return ok(Categories.render("Toys", CreateInventory.getToys()));
   }
   
   /**
@@ -60,7 +57,7 @@ public class Application extends Controller {
    * @return The Page1.
    */
   public static Result cigars() {
-    return ok(Cigars.render(CreateInventory.getCigars()));
+    return ok(Categories.render("Cigars", CreateInventory.getCigars()));
   }
   
   /**

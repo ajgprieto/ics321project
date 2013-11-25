@@ -1,4 +1,4 @@
-@(items: List[Product]) @Main("Snacks") {
+@(page: String, items: List[Product]) @Main(page) {
 <div class="container">
   <table class="table">
     <thead>
@@ -10,7 +10,6 @@
     <tbody>
       @for(item <- items) {
       <tr>
-       
         <td>@item.getItem()</td>
         <td>@item.getPrice()</td>
         <td>
