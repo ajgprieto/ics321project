@@ -1,22 +1,23 @@
 @Main("Home") {
+<div class="container">
 <div id="carousel" class="carousel slide">
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-      <img src='@routes.Assets.at("images/snacks.jpg")'>
+      <a href="@routes.Application.snacks()"><img src='@routes.Assets.at("images/snacks.jpg")'></a>
       <div class="carousel-caption">Snacks</div>
     </div>
     <div class="item">
-      <img src='@routes.Assets.at("images/beverages.jpg")'>
+      <a href="@routes.Application.beverages()"><img src='@routes.Assets.at("images/beverages.jpg")'></a>
       <div class="carousel-caption">Beverages</div>
     </div>
     <div class="item">
-      <img src='@routes.Assets.at("images/toys.jpg")'>
+      <a href="@routes.Application.toys()"><img src='@routes.Assets.at("images/toys.jpg")'></a>
       <div class="carousel-caption">Toys</div>
     </div>
     <div class="item">
-      <img src='@routes.Assets.at("images/cigars.jpg")'>
+      <a href="@routes.Application.cigars()"><img src='@routes.Assets.at("images/cigars.jpg")'></a>
       <div class="carousel-caption">Cigars</div>
     </div>
   </div>
@@ -25,5 +26,6 @@
   <a class="left carousel-control" href="#carousel" data-slide="prev"> <span class="icon-prev"></span>
   </a> <a class="right carousel-control" href="#carousel" data-slide="next"> <span class="icon-next"></span>
   </a>
+</div>
 </div>
 }

@@ -1,7 +1,8 @@
 package models;
 
-import inventory.CreateInventory;
-import java.util.Map;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import play.db.ebean.Model;
 
 /**
  * A nondescript product.
@@ -9,20 +10,26 @@ import java.util.Map;
  * @author AJ
  *
  */
-public class Product {
+@Entity
+public class Product extends Model {
 
+ 
+  private static final long serialVersionUID = 7389909143403066870L;
+  @Id
   public long id;
   public String item;
   public String price;
   public String pictureUrl;
+  public String type;
+  
   
   public Product() {}
   
-  public Product(long id, String item, String price, String pictureUrl) {
-    this.id = id;
+  public Product(String item, String price, String pictureUrl, String type) {
     this.item = item;
     this.price = price;
     this.pictureUrl = pictureUrl;
+    this.type = type;
   }
   
   public long getId() {
@@ -50,8 +57,7 @@ public class Product {
   }
   
   public String getPic(long id) {
-    Map<Long, Product> items = CreateInventory.getItems();
-    Product prod = items.get(id);
+    Product prod = Product.find().byId(id);
     return prod.pictureUrl;
   }
   
@@ -61,5 +67,10 @@ public class Product {
   
   public void setPic(String Url) {
     this.pictureUrl = Url;
+  }
+ 
+  
+  public static Finder<Long, Product> find() {
+    return new Finder<Long, Product>(Long.class, Product.class);
   }
 }

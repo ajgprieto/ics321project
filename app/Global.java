@@ -4,8 +4,9 @@ import play.GlobalSettings;
 
 /**
  * Creates an inventory for the different categories.
+ * 
  * @author AJ
- *
+ * 
  */
 public class Global extends GlobalSettings {
 
@@ -15,9 +16,11 @@ public class Global extends GlobalSettings {
    * @param app the Application
    */
   public void onStart(Application app) {
-    CreateInventory.createSnacksInventory();
-    CreateInventory.createBeveragesInventory();
-    CreateInventory.createToysInventory();
-    CreateInventory.createCigarInventory();
+    if (CreateInventory.getItems().isEmpty()) {
+      CreateInventory.createSnacksInventory();
+      CreateInventory.createBeveragesInventory();
+      CreateInventory.createToysInventory();
+      CreateInventory.createCigarInventory();
+    }
   }
 }

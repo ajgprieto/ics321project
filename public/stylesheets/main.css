@@ -17,3 +17,8 @@
   background-position: center;
   height: 300px;
 }
+
+.carousel-caption {
+  font-size: 30px;
+  color: cyan;
+}

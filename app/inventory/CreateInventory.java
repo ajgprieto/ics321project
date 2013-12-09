@@ -18,16 +18,7 @@ import models.Product;
 public class CreateInventory {
 
   static File loadFile = null;
-  static BufferedReader br = null;
-  
-  static List<Product> beverages = new ArrayList<>();
-  static List<Product> snacks = new ArrayList<>();
-  static List<Product> toys = new ArrayList<>();
-  static List<Product> cigars = new ArrayList<>();
-  
-  static Map<Long, Product> allItems = new HashMap<>();
-  
-  
+  static BufferedReader br = null;  
 
   /**
    * Creates the inventory for the beverages.
@@ -43,10 +34,8 @@ public class CreateInventory {
       while ((line = br.readLine()) != null) {
         String[] items = line.split("\\|");
         System.out.println(line);
-        Product prod = new Product(id, items[0], items[1], items[2]);
-        beverages.add(prod);
-        allItems.put(id, prod);
-        id++;
+        Product prod = new Product(items[0], items[1], items[2], "drink");
+        prod.save();
       }
     }
     catch (ArrayIndexOutOfBoundsException aioob) {
@@ -66,16 +55,12 @@ public class CreateInventory {
       br = new BufferedReader(new FileReader(loadFile));
       String line = "";
 
-      long id = 0;
-
       while ((line = br.readLine()) != null) {
         String[] items = line.split("\\|");
         System.out.println(line);
         
-        Product prod = new Product(id, items[0], items[1], items[2]);
-        snacks.add(prod);
-        allItems.put(id, prod);
-        id++;
+        Product prod = new Product(items[0], items[1], items[2], "snack");
+        prod.save();
       }
     }
     catch (ArrayIndexOutOfBoundsException aioob) {
@@ -94,15 +79,12 @@ public class CreateInventory {
       loadFile = new File("public/inventoryFiles/toys.txt");
       br = new BufferedReader(new FileReader(loadFile));
       String line = "";
-      long id = 200;
-
+    
       while ((line = br.readLine()) != null) {
         String[] items = line.split("\\|");
 
-        Product prod = new Product(id, items[0], items[1], items[2]);
-        toys.add(prod);
-        allItems.put(id, prod);
-        id++;
+        Product prod = new Product(items[0], items[1], items[2], "toy");
+        prod.save();
       }
     }
     catch (ArrayIndexOutOfBoundsException aioob) {
@@ -121,15 +103,12 @@ public class CreateInventory {
       loadFile = new File("public/inventoryFiles/cigars.txt");
       br = new BufferedReader(new FileReader(loadFile));
       String line = "";
-      long id = 300;
-
+     
       while ((line = br.readLine()) != null) {
         String[] items = line.split("\\|");
 
-        Product prod = new Product(id, items[0], items[1], items[2]);
-        cigars.add(prod);
-        allItems.put(id, prod);
-        id++;
+        Product prod = new Product(items[0], items[1], items[2], "cigar");
+        prod.save();
       }
     }
     catch (ArrayIndexOutOfBoundsException aioob) {
@@ -146,7 +125,7 @@ public class CreateInventory {
    * @return beverages
    */
   public static List<Product> getBeverages() {
-    return beverages;
+    return Product.find().where().eq("type", "drink").findList();
   }
   
   /**
@@ -154,11 +133,15 @@ public class CreateInventory {
    * @return snacks
    */
   public static List<Product> getSnacks() {
-    return snacks;
+    return Product.find().where().eq("type", "snack").findList();
   }
   
+  /**
+   * Returns the list of toys.
+   * @return
+   */
   public static List<Product> getToys() {
-    return toys;
+    return Product.find().where().eq("type", "toy").findList();
   }
   
   /**
@@ -167,15 +150,15 @@ public class CreateInventory {
    * @return the list of cigars.
    */
   public static List<Product> getCigars() {
-    return cigars;
+    return Product.find().where().eq("type", "cigar").findList();
   }
   
   /**
    * Returns a Map of all the items.
    * @return allItems
    */
-  public static Map<Long, Product> getItems() {
-    return allItems;
+  public static List<Product> getItems() {
+    return Product.find().all();
   }
   
   /**
@@ -185,7 +168,7 @@ public class CreateInventory {
    * @return the product
    */
   public static Product showItem(long id) {
-    Product prod = allItems.get(id);
+    Product prod = Product.find().byId(id);
     return prod;
   }
 

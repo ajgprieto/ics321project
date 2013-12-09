@@ -1,5 +1,6 @@
 @(page: String, items: List[Product]) @Main(page) {
 <div class="container">
+<div class="well">
   <table class="table">
     <thead>
       <tr>
@@ -10,15 +11,13 @@
     <tbody>
       @for(item <- items) {
       <tr>
-        <td>@item.getItem()</td>
+        <td><a href="@routes.Application.showItem(item.getId())">@item.getItem()</a></td>
         <td>@item.getPrice()</td>
-        <td>
-          <div class="form-group">
-            <a type="button" class="btn btn-info" href="@routes.Application.showItem(item.getId())">More Information</a>
-          </div>
-        </td>
+        <td><a type="button" class="btn btn-info" href="@routes.Application.showItem(item.getId())">More Information</a></td>
+            <td><a type="button" class="btn btn-info" href="@routes.Application.showCart(item.getId())">Add to cart</a></td>
       </tr>
       }
   </table>
+  </div>
 </div>
 }
