@@ -29,3 +29,34 @@ Startburst|1|http://www.wrigley.com/wrigley_com/Images/flash/Brands/Starburst/pa
 Skittles|1|http://www.wrigley.com/wrigley_com/Images/flash/Brands/skittles/2013-01-pack-orig130041485971263590.png
 Snikkers candy|1|https://classes.lt.unt.edu/Fall_2010/LTEC_3260_020/hlh0091/assign1/snickers-bar.jpg
 m and m s|1|http://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Plain-M%26Ms-Pile.jpg/280px-Plain-M%26Ms-Pile.jpg
+Butterfinger original|1|http://www.butterfinger.com/images/products/thumbs/product-thumb-bf.png
+butterfinger fun size|4|http://www.butterfinger.com/images/products/thumbs/product-thumb-funsize.png
+butterfinger king 2 piece|1|http://www.butterfinger.com/images/products/thumbs/product-thumb-kingsize.png
+butterfinger 6 pack|6|http://www.butterfinger.com/images/products/thumbs/product-thumb-6pack.png
+butterfinger minis|10|http://www.butterfinger.com/images/products/thumbs/product-thumb-minis.png
+butterfinger giant|9|http://www.butterfinger.com/images/products/thumbs/product-thumb-giant.png
+poptarts blueberry|5|http://images.epiinc.com/image2/?w=220&h=220&f=PTCUSHOL_birthday-box.jpg&path=KelloggStore.com
+poptarts strawberry|6|http://images.epiinc.com/image2/?w=220&h=220&f=PTCUS-1&path=KelloggStore.com
+frosted flakes box|9|http://images.epiinc.com/image2/?w=220&h=220&f=3001K&path=KelloggStore.com
+Honey snacks|11|http://images.epiinc.com/image2/?w=220&h=220&f=3002K&path=KelloggStore.com
+corn flakes|21|http://images.epiinc.com/image2/?w=220&h=220&f=3003K&path=KelloggStore.com
+fruit loops treausers|50|http://www.kelloggs.com/content/dam/common/products/KelloggsFrootLoopsTreasurescereal_31666.jpg
+fruit loops marshmellow|23|http://www.kelloggs.com/content/dam/common/products/KelloggsFrootLoopsMarshmallowcereal_573.jpg
+fruitloops cereal|12|http://www.kelloggs.com/content/dam/common/products/KelloggsFrootLoopscereal_566.jpg
+Nutrigrain chocolate chip|34|http://www.kelloggs.com/content/dam/common/products/KelloggsNutriGrainChocolateyCrunchGranolaBarsChocolateyChip_31672.jpg
+Nutrigrain strawberry|23|http://www.kelloggs.com/content/dam/common/products/KelloggsNutriGrainFruitCrunchGranolaBarsStrawberryParfait_31274.jpg
+Nutrigrain apple|21|http://www.kelloggs.com/content/dam/common/products/KelloggsNutriGrainFruitCrunchGranolaBarsAppleCobbler_31273.jpg
+Nutrigrain toffe|19|http://www.kelloggs.com/content/dam/common/products/KelloggsNutriGrainToffeeCrunchGranolaBarsChocolateyToffee_31737.jpg
+cereal bar apple|24|http://www.kelloggs.com/content/dam/common/products/KelloggsNutriGrainCerealBarsAppleCinnamon_336.jpg
+cereal bar blueberry|29|http://www.kelloggs.com/content/dam/common/products/KelloggsNutriGrainCerealBarsBlueberry_340.jpg
+cereal bar strawberry|26|http://www.kelloggs.com/content/dam/common/products/KelloggsNutriGrainCerealBarsCherry_344.jpg
+cereal bar mixed berry|10|http://www.kelloggs.com/content/dam/common/products/KelloggsNutriGrainCerealBarsMixedBerry_346.jpg
+cereal bar raspberry|10|http://www.kelloggs.com/content/dam/common/products/KelloggsNutriGrainCerealBarsRaspberry_347.jpg
+cereal bar yogurt|34|http://www.kelloggs.com/content/dam/common/products/KelloggsNutriGrainYogurtBarsStrawberryGreekYogurt_360.jpg
+pancake blueberry|10|http://www.kelloggs.com/content/dam/common/products/KelloggsEggoBlueberrypancakes_9412.jpg
+waffles blueberry|15|http://www.kelloggs.com/content/dam/common/products/KelloggsEggoBlueberrywaffles_172.jpg
+pancake chocolate chip|19|http://www.kelloggs.com/content/dam/common/products/KelloggsEggoChocolateChippancakes_14091.jpg
+waffles chocolate chip|12|http://www.kelloggs.com/content/dam/common/products/KelloggsEggoChocolateChipwaffles_174.jpg
+cinamon toast|45|http://www.kelloggs.com/content/dam/common/products/KelloggsEggoCinnamonToastwaffles_183.jpg
+pancake buttermilk|23|http://www.kelloggs.com/content/dam/common/products/KelloggsEggoButtermilkpancakes_169.jpg
+french toast|10|http://www.kelloggs.com/content/dam/common/products/KelloggsEggoFrenchToastwaffles_11910.jpg

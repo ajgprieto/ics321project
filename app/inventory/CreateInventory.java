@@ -33,7 +33,7 @@ public class CreateInventory {
 
       while ((line = br.readLine()) != null) {
         String[] items = line.split("\\|");
-        System.out.println(line);
+        
         Product prod = new Product(items[0], items[1], items[2], "drink");
         prod.save();
       }
@@ -57,7 +57,7 @@ public class CreateInventory {
 
       while ((line = br.readLine()) != null) {
         String[] items = line.split("\\|");
-        System.out.println(line);
+        
         
         Product prod = new Product(items[0], items[1], items[2], "snack");
         prod.save();

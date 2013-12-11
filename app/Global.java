@@ -17,10 +17,14 @@ public class Global extends GlobalSettings {
    */
   public void onStart(Application app) {
     if (CreateInventory.getItems().isEmpty()) {
+      long time = System.nanoTime();
       CreateInventory.createSnacksInventory();
       CreateInventory.createBeveragesInventory();
       CreateInventory.createToysInventory();
       CreateInventory.createCigarInventory();
+      time = System.nanoTime() - time;
+      System.out.println(time);
     }
+    
   }
 }
