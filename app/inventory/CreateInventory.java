@@ -171,5 +171,10 @@ public class CreateInventory {
     Product prod = Product.find().byId(id);
     return prod;
   }
+  
+  public static List<Product> searchDB(String name) {
+    List<Product> products = Product.find().where().contains("item", name).findList();
+    return products;
+  }
 
 }

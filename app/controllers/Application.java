@@ -1,5 +1,6 @@
 package controllers;
 
+import java.util.List;
 import models.CartDB;
 import models.Product;
 import inventory.CreateInventory;
@@ -7,6 +8,7 @@ import play.data.Form;
 import play.mvc.Controller;
 import play.mvc.Result;
 import views.formdata.ContactFormData;
+import views.formdata.ProductFormData;
 import views.formdata.TelephoneTypes;
 import views.html.Index;
 import views.html.NewContact;
@@ -14,6 +16,8 @@ import views.html.ShowItem;
 import views.html.Cart;
 import views.html.Checkout;
 import views.html.Categories;
+import views.html.SearchResults;
+import views.html.SearchPage;
 
 /**
  * Implements the controllers for this application.
@@ -120,5 +124,19 @@ public class Application extends Controller {
     return ok(Checkout.render());
   }
   
+  public static Result getResults() {
+    ProductFormData data2 = new ProductFormData();
+    Form<ProductFormData> dataForm = Form.form(ProductFormData.class).fill(data2);
+    Form<ProductFormData> data = Form.form(ProductFormData.class).bindFromRequest();
+    ProductFormData formData = data.get();
+    List<Product> results = CreateInventory.searchDB(formData.item);
+    return ok(SearchResults.render(results));
+  }
+  
+  public static Result searchPage() {
+    ProductFormData data = new ProductFormData();
+    Form<ProductFormData> formData = Form.form(ProductFormData.class);
+    return ok(SearchPage.render(formData));
+  }
   
 }

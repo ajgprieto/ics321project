@@ -1,0 +1,36 @@
+@(results: List[Product])
+
+@Main("Search Results") {
+<div class="container">
+@if(results.size() == 0){
+<div class="well">
+        <br><h1>Sorry, No Results Were Found...</h1></br>
+        <ul><li><a href="@routes.Application.searchPage()">Please try your search again.</a></li></ul>
+      </div>
+} else {
+<div class="well">
+<h1>Here are the results of your search...</h1>
+  <table class="table">
+    <thead>
+      <tr>
+        <th></th>
+        <th>Item</th>
+        <th>Price</th>
+        <th></th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      @for(result <- results){ 
+      <tr>
+        <td><a href="@routes.Application.showItem(result.getId())">@result.getItem()</a></td>
+        <td>@result.getPrice()</td>
+        <td><a type="button" class="btn btn-info" href="@routes.Application.showItem(result.getId())">More Information</a></td>
+            <td><a type="button" class="btn btn-info" href="@routes.Application.showCart(result.getId())">Add to cart</a></td>
+      </tr>
+     }
+  </table>
+  </div>
+  }
+</div>
+}

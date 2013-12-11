@@ -1,0 +1,23 @@
+@(search: Form[views.formdata.ProductFormData])
+
+@import helper._
+@import bootstrap3._
+@import models._
+
+@Main("Search") {
+<div class="container">
+<div class="well">
+@form(routes.Application.getResults(), 'class -> "form-horizontal") {
+  @text(search("item"),
+        placeholder="Item",
+        label="Item",
+        help="Item you are searching for.")
+        <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">Search</button>
+      </div>
+    </div>
+  }
+  </div>
+</div>
+}
