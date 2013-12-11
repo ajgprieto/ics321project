@@ -15,10 +15,10 @@ coca-cola 6 1/2 litter bottles|5.99|http://images.coca-colastore.com/imagesEdp/p
 coca- cola 18oz bottle|1.69|http://upload.wikimedia.org/wikipedia/commons/thumb/8/87/CocaColaBottle_background_free.jpg/450px-CocaColaBottle_background_free.jpg
 coca- cola 12 oz can|0.99|http://img.21food.com/simg/product/2012/10/14/pumutrading-19090380.jpg
 mountain dew 12 pack|5|http://www.couponaholic.net/wp-content/uploads/2012/04/mountain-dew.jpg
-diet mountain dew 12 pack|5|http://images3.wikia.nocookie.net/__cb20120715192807/mountaindew/images/thumb/c/c8/Diet_Dew_Box.jpg/217px-Diet_Dew_Box.jpg
+diet mountain dew 12 pack|6|http://images3.wikia.nocookie.net/__cb20120715192807/mountaindew/images/thumb/c/c8/Diet_Dew_Box.jpg/217px-Diet_Dew_Box.jpg
 mountain dew 18 oz|1.69|http://www.hpcorporategroup.com/images/stories/mountain-dew.jpg
 diet mountain dew 18 oz|1.69|http://www.militaryfoodex.com/catalog/images/Mountain-Dew-Diet_45574493.jpg
-mountain dew can|0.99|http://zombie-juice.com/Zen/images/Mountain_Dew_Can.jpg
+mountain dew can |0.99|http://zombie-juice.com/Zen/images/Mountain_Dew_Can.jpg
 diet mountain dew can|0.99|http://gfreelaura.com/wp-content/uploads/2012/11/diet_moutain_dew-191x300.gif
 sprite 12 pack|5|http://bigboyconcessions.co/shop/images/P/12953469.jpg
 dietsprite 12 pack|5|http://i.ebayimg.com/t/Sprite-Fridge-Pack-12oz-Can-2-12-Pack-/00/s/MzUzWDM5Nw==/z/TZYAAOxyM89SbzRX/$T2eC16hHJGUFFh9SrjdkBSbzRWHWfg~~60_35.JPG
@@ -55,3 +55,31 @@ milk 1 gallon|4|http://ecx.images-amazon.com/images/I/41MXP76Q9RL.jpg
 orange juice 1 gallon|4|http://authenticselfwellness.files.wordpress.com/2012/01/orange-juice.jpg?w=322&h=252
 root beer 12 pack|5|http://content.costco.com/Images/Content/Product/1490b.jpg
 diet root beer 12 pack|5|http://www.blueridgebeverage.com/site/assets/files/1408/diet_aw.jpeg
+monster energy|9|http://www.monsterenergy.com/uploads_image/2013/10/23/p187jn2avp1l72u8r1a96vmv1dnn1_L_121x83.jpg
+monster energy ultra blue|9|http://www.monsterenergy.com/uploads_image/2013/04/11/p17nt5oemr15e6p4j1e4vb31101a1_L_121x83.jpg
+monster ultra red|9|http://www.monsterenergy.com/uploads_image/2013/09/17/p184n210311rmg1jmv1ue999p13l61_L_121x83.jpg
+monster lo carb|9|http://www.monsterenergy.com/uploads_image/2013/10/23/p187jn43ra18g11uja1hpfpo61jk212_L_121x83.jpg
+monster zero ultra|10|http://www.monsterenergy.com/uploads_image/2012/10/02/p178hpnls7162g1jnoh9n1tt25de1_L_121x83.jpg
+monster cuba lima|10|http://www.monsterenergy.com/uploads_image/2012/10/02/p178hlm44555et9g18541lp21fgl1_L_121x83.jpg
+monster absolute zero|11|http://www.monsterenergy.com/uploads_image/2013/11/04/p188itmc2a1kpn1fbo1tpq15pl1vlq1_L_121x83.jpg
+monster ubermonster|12|http://www.monsterenergy.com/uploads_image/2012/07/03/p1715lkrde39ejbt1lvprj9o31_121x83.jpg
+monster assult|19|http://www.monsterenergy.com/uploads_image/2012/07/03/p1715ku8at1s09u9gpvq12ta1tea1u_121x83.jpg
+monster khaos|34|http://www.monsterenergy.com/uploads_image/2012/07/03/p1715kpp5j16p94uv1qpagh9f4km_121x83.jpg
+monster m80|10|http://www.monsterenergy.com/uploads_image/2012/07/03/p1715k00786ggcfbu9gd7813lp6t_121x83.jpg
+monster import|12|http://www.monsterenergy.com/uploads_image/2012/07/03/p1715jlc2r13ft1cio10891f71dou5l_121x83.jpg
+monster M3|10|http://www.monsterenergy.com/uploads_image/2012/07/02/p1715j9d9l5i819bpneu1p3613nt3p_121x83.jpg
+monster Loca moca|10|http://www.monsterenergy.com/uploads_image/2012/07/03/p1715nrgfunhk12j21rkk13781tofbl_121x83.jpg
+But light|4|http://www.budlight.com/Theme/InnerPageTheme/images/at-facebook.png
+miller lite|7|http://upload.wikimedia.org/wikipedia/en/8/87/MillerLite.png
+coors light|9|http://upload.wikimedia.org/wikipedia/en/4/46/Coors_Light_Logo.png
+Budweiser|11|http://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Budweiser.svg/225px-Budweiser.svg.png
+whisky|20|http://upload.wikimedia.org/wikipedia/commons/thumb/4/44/A_Glass_of_Whiskey_on_the_Rocks.jpg/220px-A_Glass_of_Whiskey_on_the_Rocks.jpg
+red wine|21|http://upload.wikimedia.org/wikipedia/en/thumb/c/c0/Red_Wine_Glass.jpg/220px-Red_Wine_Glass.jpg
+Heineken|10|http://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Heineken.jpg/78px-Heineken.jpg
+michelob ultra|19|http://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Michelob_ULTRA_1.jpg/220px-Michelob_ULTRA_1.jpg
+crown royal|20|http://upload.wikimedia.org/wikipedia/en/thumb/4/42/Crown_Royal_Logo.jpg/250px-Crown_Royal_Logo.jpg
+sex on the beach|29|http://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sex_On_The_Beach.jpg/220px-Sex_On_The_Beach.jpg
+Sam adams|19|http://upload.wikimedia.org/wikipedia/en/9/9d/Samadamsovallogo.png
+Grey Goose|16|http://upload.wikimedia.org/wikipedia/commons/thumb/0/05/GreyGoose_Plain750.jpg/83px-GreyGoose_Plain750.jpg
+jack daniels|34|http://upload.wikimedia.org/wikipedia/en/0/0b/Jack_Daniels_Logo.jpg
+water|0|http://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Water_droplet_blue_bg05.jpg/220px-Water_droplet_blue_bg05.jpg

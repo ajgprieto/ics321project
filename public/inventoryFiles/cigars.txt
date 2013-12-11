@@ -4,3 +4,54 @@ MAlboro lite cigarettes|18.50|http://ecx.images-amazon.com/images/I/41L8cm4v1vL.
 Camel cigarettes|18.45|http://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Pack_of_camel.jpg/200px-Pack_of_camel.jpg
 Camel lites|18.46|http://file.vintageadbrowser.com/k4czv48f25t8k6.jpg
 Chewing toabaco|9.99|http://www.drugnet.net/resources/gallery_photo/chewing-tobacco77.jpg
+American legend|20|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/ProductThumbnail_6271.jpg
+American legend 1 cart|120|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/ProductThumbnail_6271.jpg
+American legend 6 cart|160|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/ProductThumbnail_6271.jpg
+captain black lite 1 cart|38|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/CapBlack2.jpg
+captain black lite 6 cart|240|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/CapBlack2.jpg
+captain black lite 10 cart|400|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/CapBlack2.jpg
+captain black cigar 1 cart|38|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/CapBlack1.jpg
+captain black cigar 6 cart|240|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/CapBlack1.jpg
+captain black cigar 10 cart|370|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/CapBlack1.jpg
+davidoff king size cigarettes 1 cart|37|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023-00-42.jpg
+davidoff king size cigaretees 6 cart|220|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023-00-42.jpg
+davidoff king size cigarettes 10 cart|380|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023-00-42.jpg
+davidoff orange king 1 cart|37|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023-00-43.jpg
+davidoff orange king 6 cart|220|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023-00-43.jpg
+davidoff orange king 10 cart|380|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023-00-43.jpg
+davidoff gold 1 cart|38|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023-00-88.jpg
+davidoff gold 6 cart|220|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023-00-88.jpg
+davidoff gold 10 cart|370|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023-00-88.jpg
+davidoff ivory 1 cart|38|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023-00-44.jpg
+davidoff ivory 6 cart|220|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023-00-44.jpg
+davidoff ivory 10 cart|370|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023-00-44.jpg
+davidoff meth 1 cart|38|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/0230013.jpg
+davidoff meth 6 cart|220|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/0230013.jpg
+davidoff meth 10 cart|370|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/0230013.jpg
+davidoff german 1 cart|38|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/ProductThumbnail_2991.jpg
+davidoff german 6 cart|220|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/ProductThumbnail_2991.jpg
+davidoff german 10 cart|400|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/ProductThumbnail_2991.jpg
+Monte carlo hard cig 1 cart|40|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/montecarlolightkshard_small.jpg
+Monte carlo hard cig 6 cart|300|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/montecarlolightkshard_small.jpg
+Monte carlo hard cig 10 cart|400|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/montecarlolightkshard_small.jpg
+Salem meth cig 1 cart|35|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/021.10.02.jpg
+Salem meth cig 6 cart|205|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/021.10.02.jpg
+Salem meth cig 10 cart|340|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/021.10.02.jpg
+Salem meth king 1 cart|50|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023.20.09n.jpg
+Salem meth king 6 cart|140|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023.20.09n.jpg
+Salem meth king 10 cart|500|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023.20.09n.jpg
+R1 slim 1 cart|20|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/1430.jpg
+R1 slim 6 cart|100|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/1430.jpg
+R1 slim 10 cart|200|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/1430.jpg
+R1 King 1 cart|50|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023.00.56.jpg
+R1 king 6 cart|300|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023.00.56.jpg
+R1 king 10 cart|400|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/023.00.56.jpg
+Regal king 1 cart|70|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/022.00.53_small.jpg
+Regal King 6 cart|234|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/022.00.53_small.jpg
+Regal King 10 cart|302|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/022.00.53_small.jpg
+Kent blue cig 1 cart|31|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/kentS.jpg
+Kent blue cig 6 cart|99|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/kentS.jpg
+Kent blue cig 10 cart|306|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/kentS.jpg
+Kent nanotek 1 cart|42|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/ProductThumbnail_3015.jpg
+Kent nanotek 6 cart|104|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/ProductThumbnail_3015.jpg
+Kent nanotek 10 cart|267|http://www.dutyfreedepot.com/images/ProductImages/Thumbs/ProductThumbnail_3015.jpg

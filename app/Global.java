@@ -15,9 +15,13 @@ public class Global extends GlobalSettings {
    * @param app the Application
    */
   public void onStart(Application app) {
+    long time = System.nanoTime();
     CreateInventory.createSnacksInventory();
     CreateInventory.createBeveragesInventory();
     CreateInventory.createToysInventory();
     CreateInventory.createCigarInventory();
+    time = System.nanoTime() - time;
+    
+    System.out.println(time);
   }
 }

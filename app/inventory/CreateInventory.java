@@ -26,6 +26,7 @@ public class CreateInventory {
   static List<Product> cigars = new ArrayList<>();
   
   static Map<Long, Product> allItems = new HashMap<>();
+  static List<Product> all = new ArrayList<>();
   
   
 
@@ -42,15 +43,16 @@ public class CreateInventory {
 
       while ((line = br.readLine()) != null) {
         String[] items = line.split("\\|");
-        System.out.println(line);
+        
         Product prod = new Product(id, items[0], items[1], items[2]);
         beverages.add(prod);
+        all.add(prod);
         allItems.put(id, prod);
         id++;
       }
     }
     catch (ArrayIndexOutOfBoundsException aioob) {
-      System.out.println("help");
+      System.out.println("help1");
     }
     catch (IOException io) {
       System.out.println("Something Broke, Beverages, FIX IT");
@@ -70,16 +72,17 @@ public class CreateInventory {
 
       while ((line = br.readLine()) != null) {
         String[] items = line.split("\\|");
-        System.out.println(line);
+        
         
         Product prod = new Product(id, items[0], items[1], items[2]);
         snacks.add(prod);
+        all.add(prod);
         allItems.put(id, prod);
         id++;
       }
     }
     catch (ArrayIndexOutOfBoundsException aioob) {
-      System.out.println("help");
+      System.out.println("help2");
     }
     catch (IOException io) {
       System.out.println("Something Broke, Snacks, FIX IT");
@@ -101,12 +104,13 @@ public class CreateInventory {
 
         Product prod = new Product(id, items[0], items[1], items[2]);
         toys.add(prod);
+        all.add(prod);
         allItems.put(id, prod);
         id++;
       }
     }
     catch (ArrayIndexOutOfBoundsException aioob) {
-      System.out.println("help");
+      System.out.println("help3");
     }
     catch (IOException io) {
       System.out.println("Something Broke, Toys, FIX IT");
@@ -128,12 +132,13 @@ public class CreateInventory {
 
         Product prod = new Product(id, items[0], items[1], items[2]);
         cigars.add(prod);
+        all.add(prod);
         allItems.put(id, prod);
         id++;
       }
     }
     catch (ArrayIndexOutOfBoundsException aioob) {
-      System.out.println("help");
+      System.out.println("help4");
     }
     catch (IOException io) {
       System.out.println("Something Broke, Cigars, FIX IT");
